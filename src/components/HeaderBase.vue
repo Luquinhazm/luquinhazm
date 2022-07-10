@@ -4,11 +4,11 @@
         <nav class="  flex gap-6 ">
             <ul class="flex items-center gap-8">
                 <li><a href="">Sobre</a></li>
-                <li><a href="">Skills</a></li>
+                <li><a href="">Habilidades</a></li>
                 <li><a href="">Projetos</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
-            <button class="bg-gray-900 text-white px-2 py-1 font-semibold border-none ">Download CV</button>
+            <button class="bg-gray-900 text-white px-2 py-1 font-semibold border-none hover:scale-105 hover:bg-gray-300 hover:text-black transition-all delay-75 ease-in-out ">Download CV</button>
         </nav>
     </header>
 </template>
