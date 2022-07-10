@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-[80vh]">
+    <section class="min-h-[80vh] mt-14">
         <h2 class="text-3xl uppercase font-semibold text-center mt-4 tracking-widest">Projetos</h2>
         <p class="text-center mt-1">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
         <div class="mb-8">
