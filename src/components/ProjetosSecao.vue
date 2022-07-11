@@ -32,22 +32,22 @@
 					<div class="flex flex-wrap justify-center w-full gap-3">
 						<div class=" flex-shrink-0 text-center w-98 hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://7days-of-code-nine.vercel.app/"> <img src="../assets/7daysofcode.png "
-									class="h-64 mb-2 w-98 flex-shrink-0  " alt=""> </a>
+									class="h-64 mb-2 w-98  flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">7 days of code | Alura</span>
 						</div>
 						<div class=" flex-shrink-0 text-center w-98 hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://pedra-papel-tesoura-xi-one.vercel.app/"> <img
-									src="../assets/pedrapapeltesoura.png " class="h-64 mb-2 w-98 flex-shrink-0  " alt=""> </a>
+									src="../assets/pedrapapeltesoura.png " class="h-64 rounded mb-2 w-98 flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">Pedra, Papel, Tesoura | FrontEnd Mentor </span>
 						</div>
 						<div class=" flex-shrink-0 text-center w-98 hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://ignitelabreact.vercel.app/"><img src="../assets/ignitelab.png "
-									class="h-64 mb-2 w-98 flex-shrink-0  " alt=""> </a>
+									class="h-64 rounded mb-2 w-98 flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">IgniteLab | Rocketseat</span>
 						</div>
-						<div class=" flex-shrink-0 text-center w-98 hover:scale-105 transition-transform ease-linear delay-150">
+						<div class=" flex-shrink-0 text-center  w-98 hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://advinhanumero.vercel.app/"><img src="../assets/advinhaNumero.png "
-									class="h-64 mb-2 w-98 flex-shrink-0  " alt=""></a>
+									class="h-64 rounded mb-2 w-98 flex-shrink-0  " alt=""></a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">Adivinha Número | Curso Em Video</span>
 						</div>
 					</div>
