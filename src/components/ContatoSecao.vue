@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-[80vh] text-slate-50 flex items-center justify-center">
+    <section id="contato" class="min-h-[80vh] text-slate-50 flex items-center justify-center">
         <div class="flex shadow-lg  shadow-gray-500">
             <div class="bg-slate-900 flex items-center px-6 w-[480px]">
                 <h3 class="text-6xl  my-6 font-bold">Entre em contato</h3>
