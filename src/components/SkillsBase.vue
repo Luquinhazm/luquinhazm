@@ -1,7 +1,7 @@
 <template >
 	<section id="skills" class="min-h-[70vh] flex items-center ">
-		<div class="shadow-lg shadow-gray-300 mx-auto bg-slate-50 w-2/3 rounded-lg">
-			<h1 class="text-3xl uppercase font-semibold pt-4 text-center tracking-widest">Habilidades</h1>
+		<div class="shadow-lg shadow-gray-300 mx-auto px-8 py-4 bg-slate-50 w-4/5 max-w-5xl rounded-lg">
+			<h1 class="text-3xl sm:text-2xl  uppercase font-semibold pt-4 text-center tracking-widest">Habilidades</h1>
 			<p class="text-center mt-1">Tecnologias que tenho conhecimento</p>
 
 			<div class="text-5xl flex justify-center mt-10 gap-6">
@@ -39,7 +39,7 @@
 			<div class="text-center my-8">
 				<p>Consumo de APIs Rest e GraphQL</p>
 			</div>
-			
+
 		</div>
 
 	</section>

@@ -1,12 +1,14 @@
 <template>
-	<section id="contato" class="min-h-[80vh] text-slate-50 flex items-center justify-center">
-		<div class="flex shadow-lg  shadow-gray-500">
+	<section id="contato" class=" bg-slate-50 text-slate-50 flex items-center justify-center">
+		<div class="flex my-10 shadow-lg md:flex-wrap md:justify-center w-5/6 max-w-[780px] shadow-gray-500">
+
+
 			<div class="bg-slate-900 flex items-center px-6 w-[480px]">
 				<h3 class="text-6xl  my-6 font-bold">Entre em contato</h3>
 			</div>
 
 			<form action="https://formsubmit.co/luquinhazm@gmail.com" method="POST"
-				class="flex flex-col justify-center bg-slate-50 max-w-[420px] h-[450px] w-4/5 p-5 ">
+				class="flex flex-col justify-center  max-w-[420px] h-[450px] w-ful p-5 ">
 				<input type="text" name="name" placeholder="Nome"
 					class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2"
 					required>
