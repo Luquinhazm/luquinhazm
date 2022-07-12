@@ -3,11 +3,14 @@
 		<h2 class="text-3xl uppercase font-semibold text-center mt-4 tracking-widest">Projetos</h2>
 		<p class="text-center mt-1">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
-		<div class="mb-8">
-			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-11/12">
-				<h3 class="text-2xl tracking-wider mb-3">Freelancers</h3>
-				<div class="flex gap-8">
-					<div class="flex flex-wrap justify-center gap-8">
+		<div class="mb-8 mt-12">
+
+			<div class="mt-6 mb-20 mx-auto flex flex-col justify-center items-center w-11/12">
+				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Freelancers</h3>
+
+				<div class="flex gap-4">
+					<div class="flex flex-wrap gap-8">
+
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
 							<a target="_blank" href="http://www.shstecnologia.com/"> <img src="../assets/shstech.png "
 									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
@@ -24,30 +27,33 @@
 				</div>
 			</div>
 
-			<div class="mt-6 mx-auto flex flex-col items-center">
-				<h3 class="text-2xl tracking-wider mb-3">Estudos</h3>
+			<div class="mt-14 mx-auto flex flex-col items-center">
+				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Estudos</h3>
 
 
-				<div class="flex gap-3 max-w-[800px] ">
-					<div class="flex flex-wrap justify-center w-full gap-3">
+				<div class="flex gap-4 max-w-[850px] ">
+
+					<div class="flex flex-wrap justify-center w-full gap-8">
+
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://7days-of-code-nine.vercel.app/"> <img src="../assets/7daysofcode.png "
 									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">7 days of code | Alura</span>
 						</div>
+						
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://pedra-papel-tesoura-xi-one.vercel.app/"> <img
-									src="../assets/pedrapapeltesoura.png " class="h-64 rounded mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
+									src="../assets/pedrapapeltesoura.png " class="h-64  mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">Pedra, Papel, Tesoura | FrontEnd Mentor </span>
 						</div>
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://ignitelabreact.vercel.app/"><img src="../assets/ignitelab.png "
-									class="h-64 rounded mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
+									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">IgniteLab | Rocketseat</span>
 						</div>
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://advinhanumero.vercel.app/"><img src="../assets/advinhaNumero.png "
-									class="h-64 rounded mb-2 w-full max-w-sm flex-shrink-0  " alt=""></a>
+									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""></a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">Adivinha Número | Curso Em Video</span>
 						</div>
 					</div>
