@@ -1,19 +1,9 @@
 # luquinhazm
 
-## Project setup
-```
-npm install
-```
+Criação de um site com o objetivo de ser o meu portifolio
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Ferramentas Utilizadas
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Tailwind CSS 
+* VUE.JS
+* Vue Router
