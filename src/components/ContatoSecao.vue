@@ -1,6 +1,6 @@
 <template>
-	<section id="contato" class=" bg-slate-50 text-slate-50 flex items-center justify-center">
-		<div class="flex my-10 shadow-lg md:flex-wrap md:justify-center w-5/6 max-w-[780px] shadow-gray-500">
+	<section id="contato" class="  text-slate-50 flex items-center justify-center">
+		<div class="flex my-10 bg-slate-50 shadow-lg md:flex-wrap md:justify-center w-5/6 max-w-[780px] shadow-gray-500">
 
 
 			<div class="bg-slate-900 flex items-center px-6 w-[480px]">
