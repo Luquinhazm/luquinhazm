@@ -1,6 +1,6 @@
 <template>
-	<main class="flex mt-16 px-4 justify-around min-h-[78vh] md:flex-wrap-reverse md:justify-start  lg:mt-4  ">
-		<div class=" flex px-4 flex-col gap-4 justify-around">
+	<main class="flex mt-16 px-4 justify-around  md:flex-wrap-reverse md:justify-start  lg:mt-4  ">
+		<div class="flex px-4 flex-col gap-4 justify-around">
 			<div class="max-w-[450px] w-[95%]">
 				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Lorem, ipsum.</h1>
 				<p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officia magnam ad ea unde.
