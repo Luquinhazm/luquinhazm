@@ -6,10 +6,11 @@
             </div>
             
             <form action="https://formsubmit.co/luquinhazm@gmail.com" method="POST" class="flex flex-col justify-center bg-slate-50 max-w-[420px] h-[450px] w-4/5 p-5 ">
-                <input type="hidden" name="_subject" value="New submission!">
-                <input type="text" name="name" placeholder="Nome" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2">
-                <input type="email" placeholder="Email" name="email" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2">
-                <textarea name="mensagem" placeholder="Sua Mensagem" id="" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-24 bg-transparent border-2 placeholder:p-2 "></textarea>
+                <input type="text" name="name" placeholder="Nome" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2" required>
+
+                <input type="email" placeholder="Email" name="email" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2" required>
+                
+                <textarea name="mensagem" placeholder="Sua Mensagem" id="" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-24 bg-transparent border-2 placeholder:p-2 " required></textarea>
 
                 <button  
                     type="submit"
