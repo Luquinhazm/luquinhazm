@@ -11,7 +11,8 @@
                 <input type="email" placeholder="Email" name="email" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-11 bg-transparent border-2 placeholder:p-2">
                 <textarea name="mensagem" placeholder="Sua Mensagem" id="" class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-24 bg-transparent border-2 placeholder:p-2 "></textarea>
 
-                <button 
+                <button  
+                    type="submit"
                     class="bg-gray-900 text-white px-2 py-1 w-64 mx-auto font-semibold border-none hover:scale-105 hover:bg-gray-300 hover:text-black transition-all delay-75 ease-in-out   "
                     >
                     Enviar contato
