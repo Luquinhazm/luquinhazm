@@ -39,9 +39,8 @@
 			<div class="text-center my-8">
 				<p>Consumo de APIs Rest e GraphQL</p>
 			</div>
+			
 		</div>
-
-
 
 	</section>
 </template>
