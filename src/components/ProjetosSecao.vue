@@ -26,8 +26,8 @@
 
 			<div class="mt-6 mx-auto flex flex-col items-center">
 				<h3 class="text-2xl tracking-wider mb-3">Estudos</h3>
-				
-				
+
+
 				<div class="flex gap-3 w-11/12 ">
 					<div class="flex flex-wrap justify-center w-full gap-3">
 						<div class=" flex-shrink-0 text-center w-98 hover:scale-105 transition-transform ease-linear delay-150">
@@ -54,13 +54,12 @@
 				</div>
 			</div>
 		</div>
-
 	</section>
 </template>
 
 <script>
 
-	export default {
-    name:'ProjetosSecao',
-	}
+export default {
+	name: 'ProjetosSecao',
+}
 </script>

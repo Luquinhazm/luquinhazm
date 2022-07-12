@@ -1,24 +1,24 @@
 <template>
-  <nav>
-    <HomeView/>
-  </nav>
+	<nav>
+		<HomeView />
+	</nav>
 </template>
 
 <script>
 import HomeView from '@/views/HomeView.vue'
 
 export default {
-  name: 'App',
-  components:{
-    HomeView
-  }
+	name: 'App',
+	components: {
+		HomeView
+	}
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 </style>
