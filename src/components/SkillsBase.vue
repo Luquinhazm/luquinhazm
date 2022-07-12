@@ -1,5 +1,5 @@
 <template >
-	<section id="skills" class="min-h-[70vh] flex items-center ">
+	<section id="skills" class=" mt-32 mb-32 flex items-center ">
 		<div class="shadow-lg shadow-gray-300 mx-auto px-8 py-4 bg-slate-50 w-4/5 max-w-5xl rounded-lg">
 			<h1 class="text-3xl sm:text-2xl  uppercase font-semibold pt-4 text-center tracking-widest">Habilidades</h1>
 			<p class="text-center mt-1">Tecnologias que tenho conhecimento</p>
