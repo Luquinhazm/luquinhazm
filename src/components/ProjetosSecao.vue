@@ -33,7 +33,7 @@
 				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Estudos</h3>
 
 
-				<div class="flex gap-4 max-w-[850px] ">
+				<div class="flex gap-4 justify-center max-w-[850px] ">
 
 					<div class="flex flex-wrap justify-center w-full gap-8">
 
@@ -45,8 +45,8 @@
 						
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://pedra-papel-tesoura-xi-one.vercel.app/"> <img
-									src="../assets/pedrapapeltesoura.png " class="h-64  mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
-							<span class="text-xl px-2 font-semibold  text-gray-900">Pedra, Papel, Tesoura | FrontEnd Mentor </span>
+									src="../assets/pedrapapeltesoura.png " class="h-64 mb-2 w-full max-w-sm flex-shrink-0 " alt=""> </a>
+							<span class="text-xl  font-semibold  text-gray-900">Pedra, Papel, Tesoura <br> FrontEnd Mentor </span>
 						</div>
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
 							<a target="_blank" href="https://ignitelabreact.vercel.app/"><img src="../assets/ignitelab.png "
