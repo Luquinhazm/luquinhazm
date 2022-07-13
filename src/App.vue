@@ -1,7 +1,7 @@
 <template>
-	<nav>
+	
 		<HomeView />
-	</nav>
+	
 </template>
 
 <script>
