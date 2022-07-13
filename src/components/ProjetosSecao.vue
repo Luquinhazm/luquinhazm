@@ -15,14 +15,14 @@
 							<a target="_blank" href="http://www.shstecnologia.com/"> 
 								<img src="../assets/shstech.png " class="h-64 mb-2 w-full max-w-sm flex-shrink-0" alt=""> 
 							</a>
-							<span class="text-lg px-2 font-semibold text-gray-900">SHS Tecnologia</span>
+							<span class="text-lg px-2 text-gray-900">SHS Tecnologia</span>
 						</div>
 
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
 							<a target="_blank" href="https://lutechinformatica.com.br/">
 								<img src="../assets/lutech.png " class="h-64 mb-2 w-full max-w-sm flex-shrink-0 " alt=""> 
 							</a>
-							<span class="text-lg px-2 font-semibold  text-gray-900">Lutech Informatica</span>
+							<span class="text-lg px-2 text-gray-900">Lutech Informatica</span>
 						</div>
 
 					</div>
