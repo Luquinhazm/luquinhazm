@@ -1,7 +1,7 @@
 <template>
 	<section id="projetos" class="min-h-[80vh] mt-14 flex  flex-col">
 		<h2 class="text-3xl uppercase font-semibold text-center mt-4 tracking-widest">Projetos</h2>
-		<p class="text-center mt-1">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
+		<p class="text-center">Alguns dos meus projetos já feitos</p>
 
 		<div class="mb-8 mt-12">
 
@@ -12,14 +12,16 @@
 					<div class="flex flex-wrap gap-8">
 
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
-							<a target="_blank" href="http://www.shstecnologia.com/"> <img src="../assets/shstech.png "
-									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
-							<span class="text-xl px-2 font-semibold  text-gray-900">SHS Tecnologia</span>
+							<a target="_blank" href="http://www.shstecnologia.com/"> 
+								<img src="../assets/shstech.png " class="h-64 mb-2 w-full max-w-sm flex-shrink-0" alt=""> 
+							</a>
+							<span class="text-xl px-2 font-semibold text-gray-900">SHS Tecnologia</span>
 						</div>
 
 						<div class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
-							<a target="_blank" href="https://lutechinformatica.com.br/"><img src="../assets/lutech.png "
-									class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt=""> </a>
+							<a target="_blank" href="https://lutechinformatica.com.br/">
+								<img src="../assets/lutech.png " class="h-64 mb-2 w-full max-w-sm flex-shrink-0 " alt=""> 
+							</a>
 							<span class="text-xl px-2 font-semibold  text-gray-900">Lutech Informatica</span>
 						</div>
 

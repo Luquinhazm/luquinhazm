@@ -2,9 +2,8 @@
 	<main class="flex mt-16 px-4 justify-around  md:flex-wrap-reverse md:justify-start  lg:mt-4  ">
 		<div class="flex px-4 flex-col gap-4 justify-around">
 			<div class="max-w-[450px] w-[95%]">
-				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Lorem, ipsum.</h1>
-				<p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officia magnam ad ea unde.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, tempora.</p>
+				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Sou Lucas</h1>
+				<p class="mb-8"> Tenho 20 Anos e sou um estudante autoditada, tenho estudado Front-End desde <strong>HTML, CSS e Javascript</strong> a frameworks e biblotecas modernas como <strong>React, Vue e TailwindCSS</strong></p>
 				
 				<div class="flex gap-8 sm:flex-wrap sm:gap-2 ">
 					<BtnPrimary>Download CV</BtnPrimary>
