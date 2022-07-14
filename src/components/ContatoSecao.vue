@@ -2,7 +2,6 @@
 	<section id="contato" class="  text-slate-50 flex items-center justify-center">
 		<div class="flex my-10 bg-slate-50 shadow-lg md:flex-wrap md:justify-center w-5/6 max-w-[780px] shadow-gray-500">
 
-
 			<div class="bg-slate-900 flex items-center px-6 w-[480px]">
 				<h3 class="text-6xl  my-6 font-bold">Entre em contato</h3>
 			</div>
@@ -21,18 +20,19 @@
 					class="mb-4 p-2 text-gray-900 shadow-sm shadow-gray-500 h-24 bg-transparent border-2 placeholder:p-2 "
 					required></textarea>
 
-				<button type="submit"
-					class="bg-gray-900 text-white px-2 py-1 w-64 mx-auto font-semibold border-none hover:scale-105 hover:bg-gray-300 hover:text-black transition-all delay-75 ease-in-out   ">
-					Enviar contato
-				</button>
+				<BtnPrimary type="submit"> Enviar Contato</BtnPrimary>
+
 			</form>
 		</div>
-
+	
 	</section>
 </template>
 
 <script>
+import BtnPrimary from './Buttons/BtnPrimary.vue';
+
 export default {
-	name: 'ContatoSecao'
+	name: 'ContatoSecao',
+	components:{BtnPrimary}
 }
 </script>

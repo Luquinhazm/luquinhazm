@@ -4,10 +4,14 @@
 			<div class="max-w-[450px] w-[95%]">
 				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Sou Lucas</h1>
 				<p class="mb-8"> Tenho 20 Anos e sou um estudante autoditada, tenho estudado Front-End desde <strong>HTML, CSS e Javascript</strong> a frameworks e biblotecas modernas como <strong>React, Vue e TailwindCSS</strong></p>
-				
 				<div class="flex gap-8 sm:flex-wrap sm:gap-2 ">
+					
 					<BtnPrimary>Download CV</BtnPrimary>
-					<BtnPrimary>Entre em Contato</BtnPrimary>
+
+					<a href="mailto:luquinhazm@gmail.com">
+						<BtnPrimary >Entre em Contato</BtnPrimary>	
+					</a>
+					
 				</div>
 			</div>
 			

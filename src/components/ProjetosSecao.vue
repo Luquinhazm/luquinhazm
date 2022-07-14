@@ -1,7 +1,10 @@
 <template>
 	<section id="projetos" class="min-h-[80vh] mt-14 flex  flex-col">
-		<h2 class="text-3xl uppercase font-semibold text-center mt-4 tracking-widest">Projetos</h2>
-		<p class="text-center">Alguns dos meus projetos já feitos</p>
+		
+			<h2 class="text-3xl bg-slate-200 rounded-3xl w-52 mx-auto p-2 uppercase font-semibold text-center  tracking-widest">Projetos</h2>
+			<p class="text-center">Alguns dos meus projetos já feitos</p>
+	
+
 
 		<div class="mb-8 mt-12">
 
@@ -52,6 +55,7 @@ import BtnPrimary from './Buttons/BtnPrimary.vue'
 import BtnSecond from './Buttons/BtnSecond.vue'
 export default {
 	name: "ProjetosSecao",
+	components: { BtnPrimary, BtnSecond },
 	data() {
 		return {
 			projetos: [
@@ -96,6 +100,6 @@ export default {
 			]
 		};
 	},
-	components: { BtnPrimary, BtnSecond }
+	
 }
 </script>
