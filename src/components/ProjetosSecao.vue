@@ -7,41 +7,30 @@
 
 
 		<div class="mb-8 mt-12">
-
 			<div class="mt-6 mb-20 mx-auto flex flex-col justify-center items-center w-11/12">
 				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Freelancers</h3>
 				<div class="flex gap-4">
 					<div class="flex flex-wrap gap-8">
-						<div v-for=" projeto in projetos" :key="projeto.id"
-							class=" flex-shrink-0  relative text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
-							<a target="_blank" :href="projeto.site">
-								<div
-									class="h-64 mb-2 flex items-center justify-center absolute opacity-0  bg-white w-full max-w-sm hover:opacity-80 transition-all">
-									<BtnSecond>Veja Mais</BtnSecond>
-								</div>
-							</a>
-							<img :src="projeto.img" class="h-64 mb-2 w-full max-w-sm flex-shrink-0" alt="">
-							<span class="text-lg px-2 text-gray-900">{{ projeto.title }}</span>
-						</div>
+						<CardProjetos
+							v-for="projeto in projetos" :key="projeto.id"
+							:website="projeto.site"
+							:img="projeto.img"
+							:title="projeto.title"
+						/>
 					</div>
 				</div>
 			</div>
-
+			
 			<div class="mt-14 mx-auto flex flex-col items-center">
 				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Estudos</h3>
 				<div class="flex gap-4 justify-center max-w-[850px] ">
 					<div class="flex flex-wrap justify-center w-full gap-8">
-						<div v-for=" estudo in estudos" :key="estudo.id"
-							class=" flex-shrink-0 text-center hover:scale-105 transition-transform ease-linear delay-150">
-							<a target="_blank" :href="estudo.site">
-								<div
-									class="h-64 mb-2 flex items-center justify-center absolute opacity-0  bg-white w-full max-w-sm hover:opacity-80 transition-all">
-									<BtnSecond>Veja Mais</BtnSecond>
-								</div>
-							</a>
-							<img :src="estudo.img" class="h-64 mb-2 w-full max-w-sm flex-shrink-0  " alt="">
-							<span class="text-lg px-2 text-gray-900">{{ estudo.title }}</span>
-						</div>
+						<CardProjetos
+							v-for="estudo in estudos" :key="estudo.id"
+							:website="estudo.site"
+							:img="estudo.img"
+							:title="estudo.title"
+						/>
 					</div>
 				</div>
 			</div>
@@ -53,9 +42,10 @@
 <script>
 import BtnPrimary from './Buttons/BtnPrimary.vue'
 import BtnSecond from './Buttons/BtnSecond.vue'
+import CardProjetos from './card/CardProjetos.vue';
 export default {
 	name: "ProjetosSecao",
-	components: { BtnPrimary, BtnSecond },
+	components: { BtnPrimary, BtnSecond, CardProjetos },
 	data() {
 		return {
 			projetos: [
