@@ -54,7 +54,8 @@ export default {
 					id: 0,
 					title: "SHS Tecnologia",
 					img: require("../assets/shstech.png"),
-					site: "http://www.shstecnologia.com/"
+					// site: "http://www.shstecnologia.com/"
+				
 				},
 				{
 					id: 1,
