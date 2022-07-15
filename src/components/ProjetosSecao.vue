@@ -1,35 +1,36 @@
 <template>
 	<section id="projetos" class="min-h-[80vh] mt-14 flex  flex-col">
-		
-			<h2 class="text-3xl bg-slate-200 rounded-3xl w-52 mx-auto p-2 uppercase font-semibold text-center  tracking-widest">Projetos</h2>
-			<p class="text-center">Alguns dos meus projetos já feitos</p>
-	
-
+		<h2 class="text-3xl bg-slate-200 rounded-3xl w-52 mx-auto p-2 uppercase font-semibold text-center  tracking-widest">
+			Projetos</h2>
+		<p class="text-center">Alguns dos meus projetos já feitos</p>
 
 		<div class="mb-8 mt-12">
+
 			<div class="mt-6 mb-20 mx-auto flex flex-col justify-center items-center w-11/12">
 				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Freelancers</h3>
 				<div class="flex gap-4">
 					<div class="flex flex-wrap gap-8">
-						<CardProjetos
-							v-for="projeto in projetos" :key="projeto.id"
-							:website="projeto.site"
-							:img="projeto.img"
-							:title="projeto.title"
+						<CardProjetos 
+						v-for="projeto in projetos" 
+						:key="projeto.id" 
+						:website="projeto.site" 
+						:img="projeto.img" 
+						:title="projeto.title" 
 						/>
 					</div>
 				</div>
 			</div>
-			
-			<div class="mt-14 mx-auto flex flex-col items-center">
+
+			<div class="mt-14 mx-auto flex flex-col justify-center items-center w-11/12">
 				<h3 class="text-2xl font-bold uppercase tracking-wider mb-6">Estudos</h3>
 				<div class="flex gap-4 justify-center max-w-[850px] ">
 					<div class="flex flex-wrap justify-center w-full gap-8">
-						<CardProjetos
-							v-for="estudo in estudos" :key="estudo.id"
-							:website="estudo.site"
-							:img="estudo.img"
-							:title="estudo.title"
+						<CardProjetos 
+						v-for="estudo in estudos" 
+						:key="estudo.id" 
+						:website="estudo.site" 
+						:img="estudo.img" 
+						:title="estudo.title" 
 						/>
 					</div>
 				</div>
@@ -90,6 +91,6 @@ export default {
 			]
 		};
 	},
-	
+
 }
 </script>
