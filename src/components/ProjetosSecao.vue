@@ -16,6 +16,7 @@
 						:website="projeto.site" 
 						:img="projeto.img" 
 						:title="projeto.title" 
+						:id="projeto.id"
 						/>
 					</div>
 				</div>
@@ -31,6 +32,7 @@
 						:website="estudo.site" 
 						:img="estudo.img" 
 						:title="estudo.title" 
+						:id="estudo.id"
 						/>
 					</div>
 				</div>
@@ -54,7 +56,7 @@ export default {
 					id: 0,
 					title: "SHS Tecnologia",
 					img: require("../assets/shstech.png"),
-					// site: "http://www.shstecnologia.com/"
+					site: "http://www.shstecnologia.com/"
 				
 				},
 				{
@@ -66,25 +68,25 @@ export default {
 			],
 			estudos: [
 				{
-					id: 0,
+					id: 2,
 					title: "7 Days Of Code | Alura",
 					img: require("../assets/7daysofcode.png"),
 					site: "https://7days-of-code-nine.vercel.app/"
 				},
 				{
-					id: 1,
+					id: 3,
 					title: "Pedra, Papel, Tesoura | FrontEnd Mentor",
 					img: require("../assets/pedrapapeltesoura.png"),
 					site: "https://pedra-papel-tesoura-xi-one.vercel.app/"
 				},
 				{
-					id: 2,
+					id: 4,
 					title: "IgniteLab | Rocketseat",
 					img: require("../assets/ignitelab.png"),
 					site: "https://ignitelabreact.vercel.app/"
 				},
 				{
-					id: 3,
+					id: 5,
 					title: "Advinha Número",
 					img: require("../assets/advinhaNumero.png"),
 					site: "https://advinhanumero.vercel.app/"
