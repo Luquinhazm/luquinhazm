@@ -22,7 +22,7 @@ export default {
     website: String,
     img: String,
     title: String,
-    id: String,
+    id: Number,
     },
 
     data(){
