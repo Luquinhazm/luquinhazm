@@ -4,12 +4,12 @@
     <!-- <a target="_blank" :href="website"> -->
     <router-link :to="`projeto/${id}`">
       <div
-        class="h-64 mb-2 flex items-center justify-center absolute opacity-0  bg-white w-full max-w-sm hover:opacity-80 transition-all">
+        class="h-64 mb-2 flex items-center justify-center rounded-lg absolute opacity-0  bg-white w-full max-w-sm hover:opacity-80 transition-all">
        <BtnSecond>Veja Mais</BtnSecond>
       </div>
     </router-link>
     <!-- </a> -->
-    <img :src="img" class="h-64 mb-2 w-full max-w-sm flex-shrink-0" alt="">
+    <img :src="img" class="h-64 mb-2 w-full shadow-md shadow-gray-900 rounded-lg max-w-sm flex-shrink-0" alt="">
     <span class="text-lg px-2 text-gray-900">{{ title }}</span>
   </div>
 </template>

@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="lg:w-[60%] md:h-full md:px-4 max-w-[472px]">
-			<img class="max-w-[472px] w-[100%] rounded-md shadow-xl shadow-gray-400  " src="../assets/Perfil.jpg"
+			<img class="max-w-[472px] w-[100%] rounded-md shadow-md shadow-gray-900  " src="../assets/Perfil.jpg"
 				alt="Foto de perfil Lucas">
 		</div>
 
