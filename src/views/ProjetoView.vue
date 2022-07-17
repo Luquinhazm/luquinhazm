@@ -10,7 +10,7 @@
         <div>
           
             <div class="shadow-lg rounded-lg shadow-gray-500">
-             <img class="h-[320px] rounded-lg" :src="projeto.img" alt="">
+             <img class="max-h-[320px] rounded-lg" :src="projeto.img" alt="">
             </div>
           
             <p class="mt-3 text-center uppercase text-lg">Site do Projeto:
