@@ -2,11 +2,11 @@
   <section v-for="projeto in projetos">
     <div v-if="projeto.id == $route.params.id">
       <div class="flex justify-center mt-12  items-center relative ">
-        <a class="absolute cursor-pointer left-24 " @click="$router.go(-1)"><i class="text-3xl fa-solid fa-angle-left"></i></a>
+        <a class="absolute cursor-pointer sm:left-[10%] left-24 " @click="$router.go(-1)"><i class="text-3xl fa-solid fa-angle-left"></i></a>
         <h1 class="text-2xl  p-2 rounded-md  text-center font-semibold">{{ projeto.title }} </h1>
       </div>
      
-      <div class="flex mt-20 gap-4 justify-center">
+      <div class="flex mt-20 gap-4 lg:flex-wrap-reverse lg:mt-10 px-4 justify-center">
         <div>
           
             <div class="shadow-lg rounded-lg shadow-gray-500">
@@ -19,8 +19,8 @@
         </div>
 
 
-        <div class="p-4 h-[320px] rounded-lg shadow-lg shadow-gray-500 box-border">
-          <div class="w-[500px] h-full justify-center flex flex-col gap-3">
+        <div class="p-4 min-h-[320px] rounded-lg shadow-lg shadow-gray-500 box-border">
+          <div class="max-w-[500px] w-[90%] h-full justify-center flex flex-col gap-3">
             <h2 class="text-2xl font-semibold uppercase tracking-wide">Objetivos</h2>
             <p>{{ projeto.objetivo }}</p>
             <h2 v-if="projeto.desafio" class="text-2xl font-semibold uppercase tracking-wide">desafios</h2>
