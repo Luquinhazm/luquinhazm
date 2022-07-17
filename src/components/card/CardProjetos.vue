@@ -1,6 +1,6 @@
 <template>
   <div
-    class=" flex-shrink-0  relative text-center hover:scale-105 transition-transform ease-linear delay-150 w-98">
+    class="relative text-center hover:scale-105 transition-transform ease-linear delay-150">
     <!-- <a target="_blank" :href="website"> -->
     <router-link :to="`projeto/${id}`">
       <div
@@ -9,7 +9,7 @@
       </div>
     </router-link>
     <!-- </a> -->
-    <img :src="img" class="h-64 mb-2 w-full shadow-md shadow-gray-900 rounded-lg  max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none" alt="">
+    <img :src="img" class="max-h-64 mb-2 w-full shadow-md shadow-gray-900 rounded-lg  max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none" alt="">
     <span class="text-lg px-2 text-gray-900">{{ title }}</span>
   </div>
 </template>
