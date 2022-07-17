@@ -1,5 +1,5 @@
 <template>
-	<main class="flex mt-16 px-4 justify-around  md:flex-wrap-reverse md:justify-start  lg:mt-4  ">
+	<main class="flex mt-16 px-4 justify-around md:flex-wrap-reverse md:justify-start  lg:mt-10  ">
 		<div class="flex px-4 flex-col gap-4 justify-around">
 			<div class="max-w-[450px] w-[95%]">
 				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Sou Lucas</h1>

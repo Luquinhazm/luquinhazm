@@ -9,7 +9,7 @@
       </div>
     </router-link>
     <!-- </a> -->
-    <img :src="img" class="max-h-64 mb-2 w-full shadow-md shadow-gray-900 rounded-lg  max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none" alt="">
+    <img :src="img" class="max-h-64 mb-2 w-full shadow-md shadow-gray-900 rounded-lg  max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none sm:mb-0" alt="">
     <span class="text-lg px-[1.75%] text-gray-900">{{ title }}</span>
   </div>
 </template>
