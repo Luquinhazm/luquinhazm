@@ -1,10 +1,10 @@
 <template>
   <div
-    class="relative text-center hover:scale-105 transition-transform ease-linear delay-150">
+    class="relative text-center sm:hover:scale-100 hover:scale-105 transition-transform ease-linear delay-150">
     <!-- <a target="_blank" :href="website"> -->
     <router-link :to="`projeto/${id}`">
       <div
-        class="h-64 mb-2 flex items-center justify-center rounded-lg absolute opacity-0  bg-white w-full max-w-sm hover:opacity-80 transition-all">
+        class="h-[90%] mb-2 flex items-center justify-center rounded-lg sm:rounded-none absolute opacity-0  bg-white w-full hover:opacity-80 transition-all">
        <BtnSecond>Veja Mais</BtnSecond>
       </div>
     </router-link>
