@@ -1,32 +1,26 @@
-<template >
+<template  >
   <section v-for="projeto in projetos">
     <div v-if="projeto.id == $route.params.id">
-      <div class="flex justify-center mt-4 items-center relative ">
-        <a 
-        class="absolute cursor-pointer left-10 " 
-        @click="$router.go(-1)"
-        >
-        <i class="text-3xl fa-solid fa-angle-left"></i>
-        </a>
-        <h1 class="text-3xl text-center font-bold">{{ projeto.title }} </h1>
+      <div class="flex justify-center mt-12  items-center relative ">
+        <a class="absolute cursor-pointer left-24 " @click="$router.go(-1)"><i class="text-3xl fa-solid fa-angle-left"></i></a>
+        <h1 class="text-2xl  p-2 rounded-md  text-center font-semibold">{{ projeto.title }} </h1>
       </div>
      
-      <div class="flex w-full min-h-[90vh] justify-around items-center">
-
+      <div class="flex mt-20 gap-4 justify-center">
         <div>
-          <div class=" bg-black h-80">
-            <div class="w-[640px]">
-             <img :src="projeto.img" alt="">
+          
+            <div class="shadow-lg rounded-lg shadow-gray-500">
+             <img class="h-[320px] rounded-lg" :src="projeto.img" alt="">
             </div>
-          </div>
-            <p class="mt-3 text-center text-lg">Site do Projeto:
-              <a :href="projeto.site" class="text-base text-gray-600 underline">{{ projeto.site }}</a>
+          
+            <p class="mt-3 text-center uppercase text-lg">Site do Projeto:
+              <a :href="projeto.site" target="_blank" class="text-base lowercase text-gray-600 underline">{{ projeto.site }}</a>
             </p>
         </div>
 
 
-        <div class="">
-          <div class="w-[500px] flex flex-col gap-3">
+        <div class="p-4 h-[320px] rounded-lg shadow-lg shadow-gray-500 box-border">
+          <div class="w-[500px] h-full justify-center flex flex-col gap-3">
             <h2 class="text-2xl font-semibold uppercase tracking-wide">Objetivos</h2>
             <p>{{ projeto.objetivo }}</p>
             <h2 v-if="projeto.desafio" class="text-2xl font-semibold uppercase tracking-wide">desafios</h2>
@@ -40,6 +34,7 @@
 
   </section>
 </template>
+
 <script>
 import HeaderBase from '@/components/HeaderBase.vue';
 export default {
@@ -93,7 +88,7 @@ export default {
         },
         {
           id: 5,
-          title: "Advinha Número",
+          title: "Advinha Número | CursoEmVideo",
           objetivo: 'Uma simples aplicação de adivinhação de um numero de 1 a 100 em 10 tentativas',
           ferramentas: 'HTML, CSS e Javascript  ',
           img: require("../assets/advinhaNumero.png"),
