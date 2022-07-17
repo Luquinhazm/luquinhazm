@@ -1,5 +1,5 @@
 <template>
-	<main class="flex mt-16 px-4 justify-around md:flex-wrap-reverse md:justify-start  lg:mt-10  ">
+	<main class="flex mt-16 px-4 justify-around md:flex-wrap-reverse md:justify-start min-h-[60vh] lg:mt-10  ">
 		<div class="flex px-4 flex-col gap-4 justify-around">
 			<div class="max-w-[450px] w-[95%]">
 				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Sou Lucas</h1>
@@ -19,7 +19,7 @@
 			
 		</div>
 
-		<div class="lg:w-[60%] md:h-full md:px-4 max-w-[472px]">
+		<div class="lg:w-[75%] md:h-full md:px-4 max-w-[472px]">
 			<img class="max-w-[472px] w-[100%] rounded-md shadow-md shadow-gray-900  " src="../assets/Perfil.jpg"
 				alt="Foto de perfil Lucas">
 		</div>
