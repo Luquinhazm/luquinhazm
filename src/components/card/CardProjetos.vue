@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-sm sm:rounded-none rounded-lg shadow-black">
+  <div class="shadow-sm sm:rounded-none sm:rounded-t-lg rounded-lg shadow-black">
     <span class=" p-[1.5%] block  rounded-t-lg bg-gray-900 font-semibold text-white">{{ title }}</span>
     <div class="relative rounded-lg">
       <router-link :to="`projeto/${id}`">

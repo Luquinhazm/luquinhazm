@@ -4,7 +4,7 @@
 			Projetos</h2>
 		<p class="text-center">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
-		<div class="my-4">
+		<div class="my-4 sm:px-2">
 
 			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center w-full max-w-[850px]">
