@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <span class=" px-[1.5%] block my-2 font-semibold text-gray-900">{{ title }}</span>
+  <div class="shadow-sm sm:rounded-none rounded-lg shadow-black">
+    <span class=" p-[1.5%] block rounded-t-lg bg-gray-900 font-semibold text-white">{{ title }}</span>
     <div class="relative rounded-lg">
       <router-link :to="`projeto/${id}`">
         <div
-          class="h-full mb-2 flex items-center justify-center rounded-lg sm:rounded-none absolute opacity-0  bg-white w-full hover:opacity-60 transition-all">
+          class="h-full flex items-center justify-center rounded-b-lg sm:rounded-none absolute opacity-0  bg-white w-full hover:opacity-60 transition-all">
           <BtnSecond>Veja Mais</BtnSecond>
         </div>
       </router-link>
         <img :src="img"
-          class="max-h-64  w-full shadow-md shadow-gray-900 rounded-lg  max-w-sm flex-shrink-0  sm:max-w-full sm:rounded-none sm:shadow-none sm:mb-0"
+          class="max-h-64 w-full rounded-b-lg max-w-sm flex-shrink-0  sm:max-w-full sm:rounded-none sm:shadow-none"
           alt="">
     </div>
 
