@@ -1,6 +1,6 @@
 <template>
   <div class="shadow-sm sm:rounded-none rounded-lg shadow-black">
-    <span class=" p-[1.5%] block rounded-t-lg bg-gray-900 font-semibold text-white">{{ title }}</span>
+    <span class=" p-[1.5%] block  rounded-t-lg bg-gray-900 font-semibold text-white">{{ title }}</span>
     <div class="relative rounded-lg">
       <router-link :to="`projeto/${id}`">
         <div
@@ -9,7 +9,7 @@
         </div>
       </router-link>
         <img :src="img"
-          class="max-h-64 w-full rounded-b-lg max-w-sm flex-shrink-0  sm:max-w-full sm:rounded-none sm:shadow-none"
+          class="w-full rounded-b-lg max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none"
           alt="">
     </div>
 
