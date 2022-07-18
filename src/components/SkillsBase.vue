@@ -1,5 +1,5 @@
 <template >
-	<section id="skills" class=" mt-20 mb-8 bg-gray-900 flex items-center ">
+	<section id="skills" class=" mt-20 mb-8 px-3 bg-gray-900 flex items-center ">
 		<div class="shadow-md shadow-gray-100 my-10 mx-auto px-8 py-4 bg-slate-100 w-[100%] max-w-2xl rounded-2xl">
 			<h1 class="text-3xl sm:text-2xl  uppercase font-semibold pt-4 text-center tracking-widest">Habilidades</h1>
 	
