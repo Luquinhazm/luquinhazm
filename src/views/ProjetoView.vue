@@ -1,25 +1,25 @@
 <template  >
   <section v-for="projeto in projetos">
     <div v-if="projeto.id == $route.params.id">
-      <div class="flex justify-center px-2 mt-12 items-center ">
+      <div class="flex sm:shadow-lg  justify-center px-2 mt-12 items-center ">
         <a class=" mr-1 cursor-pointer" @click="$router.go(-1)"><i class="text-3xl fa-solid fa-angle-left"></i></a>
-        <h1 class="text-2xl p-2 rounded-md text-center  font-semibold"> {{ projeto.title }} </h1>
+        <h1 class="text-2xl p-2  text-center  font-semibold"> {{ projeto.title }} </h1>
       </div>
      
-      <div class="flex mt-20 gap-4 lg:flex-wrap-reverse lg:mt-10 px-4 justify-center">
+      <div class="flex mt-20 gap-4 sm:gap-0  lg:flex-wrap-reverse lg:mt-10 px-4 justify-center">
         <div>
           
-            <div class="shadow-lg rounded-lg shadow-gray-500">
-             <img class="max-h-[320px] rounded-lg" :src="projeto.img" alt="">
+            <div class="shadow-lg rounded-lg sm:rounded-b-lg sm:rounded-t-none  sm:shadow-none shadow-gray-500">
+             <img class="max-h-[320px] sm:rounded-b-lg sm:rounded-t-none rounded-lg" :src="projeto.img" alt="">
             </div>
           
-            <p class="mt-3 text-center uppercase text-lg">Site do Projeto:
-              <a :href="projeto.site" target="_blank" class="text-base lowercase text-gray-600 underline">{{ projeto.site }}</a>
+            <p class="mt-3 text-center uppercase">Site do Projeto:
+              <a :href="projeto.site" target="_blank" class="lowercase text-gray-600 underline">{{ projeto.site }}</a>
             </p>
         </div>
 
 
-        <div class="p-4 min-h-[320px] rounded-lg shadow-lg shadow-gray-500 box-border">
+        <div class="p-4 min-h-[320px] bg-slate-100 rounded-lg sm:rounded-t-lg sm:rounded-b-none shadow-lg sm:shadow-none shadow-gray-500 box-border">
           <div class="max-w-[500px] w-[90%] h-full justify-center flex flex-col gap-3">
             <h2 class="text-2xl font-semibold uppercase tracking-wide">Objetivos</h2>
             <p>{{ projeto.objetivo }}</p>
