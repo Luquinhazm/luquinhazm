@@ -1,6 +1,6 @@
 <template>
-	<main class="flex mt-16 px-4 justify-around md:flex-wrap-reverse md:justify-start min-h-[60vh] lg:mt-10  ">
-		<div class="flex px-4 flex-col gap-4 justify-around">
+	<main class="flex mt-16 px-2 justify-around md:flex-wrap-reverse md:justify-start min-h-[60vh] lg:mt-10  ">
+		<div class="flex px-2 flex-col gap-4 justify-around">
 			<div class="max-w-[450px] w-[95%]">
 				<h1 class="font-bold text-2xl uppercase mt-6 mb-2">Sou Lucas</h1>
 				<p class="mb-8"> Tenho 20 Anos e sou um estudante autoditada, tenho estudado Front-End desde <strong>HTML, CSS e Javascript</strong> a frameworks e biblotecas modernas como <strong>React, Vue e TailwindCSS</strong></p>
