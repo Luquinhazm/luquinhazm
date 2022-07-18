@@ -2,8 +2,8 @@
 	<div class="home ">
 		<HeaderBase />
 		<HeroBase />
-		<ProjetosSecao />
 		<SkillsBase />
+		<ProjetosSecao />
 		<ContatoSecao />
 		<FooterBase />
 	</div>

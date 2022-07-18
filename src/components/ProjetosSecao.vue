@@ -8,7 +8,7 @@
 
 			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center w-full max-w-[850px]">
-					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-wider">Freelancers</h3>
+					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Freelancers</h3>
 					<div class="flex flex-wrap justify-center w-full gap-8">
 						<CardProjetos 
 						v-for="projeto in projetos" 
@@ -24,7 +24,7 @@
 
 			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center max-w-[850px] ">
-					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-wider">Estudos</h3>
+					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
 					<div class="flex flex-wrap justify-center w-full gap-8">
 						<CardProjetos 
 						v-for="estudo in estudos" 
