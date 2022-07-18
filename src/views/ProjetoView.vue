@@ -44,16 +44,6 @@ export default {
       projetos: [
         {
           id: 0,
-          title: "SHS Tecnologia",
-          img: require("../assets/shstech.png"),
-          site: "http://www.shstecnologia.com/",
-          desafio: '',
-          objetivo: 'Criação de um site institucional para a empresa, no qual seja simples e eficiente para a representação da mesma na internet. ',
-          ferramentas: 'HTML, CSS e FormSubmit para o envio de formulario de contato'
-
-        },
-        {
-          id: 1,
           title: "Lutech Informatica",
           img: require("../assets/lutech.png"),
           site: "https://lutechinformatica.com.br/",
@@ -62,15 +52,17 @@ export default {
           ferramentas: 'HTML, CSS e FormSubmit para o envio de formulario de contato'
         },
         {
-          id: 2,
-          title: "7 Days Of Code | Alura",
-          objetivo: 'Praticar a essência do Front-End durante 7 dias seguidos desenvolvendo uma página a partir de um layout do figma.',
-          ferramentas: 'HTML e CSS',
-          img: require("../assets/7daysofcode.png"),
-          site: "https://7days-of-code-nine.vercel.app/"
+          id: 1,
+          title: "SHS Tecnologia",
+          img: require("../assets/shstech.png"),
+          site: "http://www.shstecnologia.com/",
+          desafio: '',
+          objetivo: 'Criação de um site institucional para a empresa, no qual seja simples e eficiente para a representação da mesma na internet. ',
+          ferramentas: 'HTML, CSS e FormSubmit para o envio de formulario de contato'
+  
         },
         {
-          id: 3,
+          id: 2,
           title: "Pedra, Papel, Tesoura | FrontEnd Mentor",
           objetivo: 'Criação de um jogo Jokenpô em javascript com turno de jogador e computador e um contador de pontuação. ',
           desafio:'No primeiro momento do desenvolvimento meu maior desafio foi a elaboração do algoritmo para a escolha do Computador',
@@ -79,20 +71,28 @@ export default {
           site: "https://pedra-papel-tesoura-xi-one.vercel.app/"
         },
         {
-          id: 4,
-          title: "IgniteLab | Rocketseat",
-          objetivo: 'Criação de uma plataforma de curso completa , no qual tenha facilidade para o cadastro de novas aulas por um ferramenta CMS (Content Management System)',
-          ferramentas: 'React, TailwindCSS, GraphQL, Apollo Graph e Hygraph para CMS  ',
-          img: require("../assets/ignitelab.png"),
-          site: "https://ignitelabreact.vercel.app/"
+          id: 3,
+          title: "7 Days Of Code | Alura",
+          objetivo: 'Praticar a essência do Front-End durante 7 dias seguidos desenvolvendo uma página a partir de um layout do figma.',
+          ferramentas: 'HTML e CSS',
+          img: require("../assets/7daysofcode.png"),
+          site: "https://7days-of-code-nine.vercel.app/"
         },
         {
-          id: 5,
+          id: 4,
           title: "Advinha Número | CursoEmVideo",
           objetivo: 'Uma simples aplicação de adivinhação de um numero de 1 a 100 em 10 tentativas',
           ferramentas: 'HTML, CSS e Javascript  ',
           img: require("../assets/advinhaNumero.png"),
           site: "https://advinhanumero.vercel.app/"
+        },
+        {
+          id: 5,
+          title: "IgniteLab | Rocketseat",
+          objetivo: 'Criação de uma plataforma de curso completa , no qual tenha facilidade para o cadastro de novas aulas por um ferramenta CMS (Content Management System)',
+          ferramentas: 'React, TailwindCSS, GraphQL, Apollo Graph e Hygraph para CMS  ',
+          img: require("../assets/ignitelab.png"),
+          site: "https://ignitelabreact.vercel.app/"
         },
       ]
     };

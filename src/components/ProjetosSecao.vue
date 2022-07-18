@@ -54,42 +54,42 @@ export default {
 			projetos: [
 				{
 					id: 0,
+					title: "Lutech Informatica",
+					img: require("../assets/lutech.png"),
+					site: "https://lutechinformatica.com.br/"
+				},
+				{
+					id: 1,
 					title: "SHS Tecnologia",
 					img: require("../assets/shstech.png"),
 					site: "http://www.shstecnologia.com/"
 				
 				},
-				{
-					id: 1,
-					title: "Lutech Informatica",
-					img: require("../assets/lutech.png"),
-					site: "https://lutechinformatica.com.br/"
-				},
 			],
 			estudos: [
 				{
 					id: 2,
-					title: "7 Days Of Code | Alura",
-					img: require("../assets/7daysofcode.png"),
-					site: "https://7days-of-code-nine.vercel.app/"
-				},
-				{
-					id: 3,
 					title: "Pedra, Papel, Tesoura | FrontEnd Mentor",
 					img: require("../assets/pedrapapeltesoura.png"),
 					site: "https://pedra-papel-tesoura-xi-one.vercel.app/"
 				},
 				{
-					id: 4,
-					title: "IgniteLab | Rocketseat",
-					img: require("../assets/ignitelab.png"),
-					site: "https://ignitelabreact.vercel.app/"
+					id: 3,
+					title: "7 Days Of Code | Alura",
+					img: require("../assets/7daysofcode.png"),
+					site: "https://7days-of-code-nine.vercel.app/"
 				},
 				{
-					id: 5,
+					id: 4,
 					title: "Advinha Número",
 					img: require("../assets/advinhaNumero.png"),
 					site: "https://advinhanumero.vercel.app/"
+				},
+				{
+					id: 5,
+					title: "IgniteLab | Rocketseat",
+					img: require("../assets/ignitelab.png"),
+					site: "https://ignitelabreact.vercel.app/"
 				},
 			]
 		};
