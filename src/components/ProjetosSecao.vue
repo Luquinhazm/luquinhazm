@@ -2,7 +2,7 @@
 	<section id="projetos" class=" mt-14 flex flex-col">
 		<h2 class="text-3xl w-52 mx-auto p-1 uppercase font-semibold text-center  tracking-widest">
 			Projetos</h2>
-		<p class="text-center">Alguns dos meus projetos já feitos</p>
+		<p class="text-center">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
 		<div class="my-4">
 
