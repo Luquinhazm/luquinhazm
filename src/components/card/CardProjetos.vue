@@ -9,7 +9,7 @@
         </div>
       </router-link>
         <img :src="img"
-          class="w-full rounded-b-lg max-w-sm flex-shrink-0 sm:max-w-full sm:rounded-none sm:shadow-none"
+          class=" sm:w-[310px] rounded-b-lg max-w-sm flex-shrink-0 sm:rounded-none sm:shadow-none"
           alt="">
     </div>
 

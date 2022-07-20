@@ -4,7 +4,7 @@
 			Projetos</h2>
 		<p class="text-center">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
-		<div class="my-4 sm:px-3">
+		<div class="my-4 sm:px-2">
 
 			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center w-full max-w-[850px]">
@@ -22,7 +22,27 @@
 				</div>
 			</div>
 
-			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
+			<div class="mt-6 flex flex-col justify-center items-center">
+				<div class="flex flex-col gap-4 sm:w-[100%]  justify-center max-w-[1000px] ">
+					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
+					<div class="flex justify-center gap-2">
+						<button id="prevButton"  @click="sliderPrev" ><i class="fa-solid text-2xl  fa-caret-left"></i></button>
+						<div class="flex slider sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+							<CardProjetos 
+							v-for="estudo in estudos" 
+							:key="estudo.id" 
+							:website="estudo.site" 
+							:img="estudo.img" 
+							:title="estudo.title" 
+							:id="estudo.id"
+							/>
+						</div>
+						<button id="nextButton " @click="sliderNext"><i class="fa-solid text-2xl fa-caret-right"></i></button>
+					</div>
+			
+				</div>
+			</div>
+			<!-- <div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center max-w-[850px] ">
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
 					<div class="flex flex-wrap justify-center w-full gap-8">
@@ -36,7 +56,7 @@
 						/>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 	</section>
@@ -91,8 +111,27 @@ export default {
 					img: require("../assets/ignitelab.png"),
 					site: "https://ignitelabreact.vercel.app/"
 				},
-			]
+			],
+
+		
 		};
+	},
+
+	methods: {
+		sliderNext(){
+			const slider = document.querySelector('.slider')
+			let containerDimensions = slider.getBoundingClientRect()
+			let containerWidth = containerDimensions.width 
+						slider.scrollLeft += containerWidth
+					},
+
+		sliderPrev(){
+			const slider = document.querySelector('.slider') 
+			let containerDimensions = slider.getBoundingClientRect()
+			let containerWidth = containerDimensions.width
+						slider.scrollLeft -= containerWidth
+						
+					}
 	},
 
 }
