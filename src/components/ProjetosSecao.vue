@@ -25,9 +25,11 @@
 			<div class="mt-6 flex flex-col touch-pan-x justify-center items-center">
 				<div class="flex flex-col gap-4 sm:w-[100%]  justify-center max-w-[1000px] ">
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
+
 					<div class="flex justify-center gap-2">
 						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:w-[30px] w-[50px]"></button>
-						<div class="flex slider touch-pan-x h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+
+						<div class="flex slider touch-pan-x h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden" @mousedown="slider">
 							<CardProjetos 
 							v-for="estudo in estudos" 
 							:key="estudo.id" 
@@ -37,6 +39,7 @@
 							:id="estudo.id"
 							/>
 						</div>
+
 						<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:w-[30px] w-[50px]"></button>
 					</div>
 			
@@ -119,7 +122,7 @@ export default {
 
 	methods: {
 		sliderNext(){
-			const slider = document.querySelector('.slider')
+			const slider = document.querySelector('.slider')	
 			let containerDimensions = slider.getBoundingClientRect()
 			let containerWidth = containerDimensions.width 
 						slider.scrollLeft += containerWidth
