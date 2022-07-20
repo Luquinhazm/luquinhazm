@@ -29,7 +29,7 @@
 					<div class="flex justify-center gap-2 sm:gap-0">
 						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
 
-						<div class="flex h-fit sm:overflow-x-scroll sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+						<div class="flex h-fit sm:overflow-x-scroll sm:gap-1 scroll-smooth gap-4 overflow-x-hidden">
 							
 								<CardProjetos 
 									v-for="estudo in estudos" 
