@@ -27,7 +27,7 @@
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
 					<div class="flex justify-center gap-2">
 						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:w-[30px] w-[50px]"></button>
-						<div class="flex slider h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+						<div class="flex slider touch-pan-x h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
 							<CardProjetos 
 							v-for="estudo in estudos" 
 							:key="estudo.id" 
