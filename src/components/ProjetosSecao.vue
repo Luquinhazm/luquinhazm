@@ -4,12 +4,12 @@
 			Projetos</h2>
 		<p class="text-center">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
-		<div class="my-4 sm:px-2">
+		<div class="my-4 px-1 ">
 
 			<div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
 				<div class="flex flex-col gap-4 justify-center w-full max-w-[850px]">
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Freelancers</h3>
-					<div class="flex flex-wrap justify-center w-full gap-8">
+					<div class="flex sm:flex-wrap justify-center w-full gap-8">
 						<CardProjetos 
 						v-for="projeto in projetos" 
 						:key="projeto.id" 
@@ -22,25 +22,28 @@
 				</div>
 			</div>
 
-			<div class="mt-6 flex flex-col touch-pan-x justify-center items-center">
-				<div class="flex flex-col gap-4 sm:w-[100%]  justify-center max-w-[1000px] ">
-					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
+			<div class="mt-6">
+				<div class="flex flex-col gap-4 justify-center w-full ">
+					<h3 class="text-2xl px-[2.5%] font-bold uppercase tracking-widest">Estudos</h3>
 
-					<div class="flex justify-center gap-2">
-						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:w-[30px] w-[50px]"></button>
+					<div class="flex justify-center gap-2 sm:gap-0">
+						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
 
-						<div class="flex slider touch-pan-x h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden" @mousedown="slider">
-							<CardProjetos 
-							v-for="estudo in estudos" 
-							:key="estudo.id" 
-							:website="estudo.site" 
-							:img="estudo.img" 
-							:title="estudo.title" 
-							:id="estudo.id"
-							/>
+						<div class="flex h-fit sm:overflow-x-scroll sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+							
+								<CardProjetos 
+									v-for="estudo in estudos" 
+									:key="estudo.id" 
+									:website="estudo.site" 
+									:img="estudo.img" 
+									:title="estudo.title" 
+									:id="estudo.id"
+								/>
+							
+						
 						</div>
 
-						<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:w-[30px] w-[50px]"></button>
+						<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
 					</div>
 			
 				</div>
