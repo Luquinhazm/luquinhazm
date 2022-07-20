@@ -26,8 +26,8 @@
 				<div class="flex flex-col gap-4 sm:w-[100%]  justify-center max-w-[1000px] ">
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
 					<div class="flex justify-center gap-2">
-						<button id="prevButton"  @click="sliderPrev" ><i class="fa-solid text-2xl  fa-caret-left"></i></button>
-						<div class="flex slider sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
+						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><i class="fa-solid  text-2xl  fa-caret-left"></i></button>
+						<div class="flex slider h-fit sm:w-[310px] sm:gap-0 scroll-smooth gap-4 overflow-x-hidden">
 							<CardProjetos 
 							v-for="estudo in estudos" 
 							:key="estudo.id" 
@@ -89,7 +89,7 @@ export default {
 			estudos: [
 				{
 					id: 2,
-					title: "Pedra, Papel, Tesoura | FrontEnd Mentor",
+					title: "Pedra, Papel, Tesoura",
 					img: require("../assets/pedrapapeltesoura.png"),
 					site: "https://pedra-papel-tesoura-xi-one.vercel.app/"
 				},
