@@ -22,7 +22,7 @@
 				</div>
 			</div>
 
-			<div class="mt-6 flex flex-col justify-center items-center">
+			<div class="mt-6 flex flex-col touch-pan-x justify-center items-center">
 				<div class="flex flex-col gap-4 sm:w-[100%]  justify-center max-w-[1000px] ">
 					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
 					<div class="flex justify-center gap-2">
