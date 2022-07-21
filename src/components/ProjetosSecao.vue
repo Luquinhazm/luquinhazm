@@ -4,14 +4,14 @@
 			Projetos</h2>
 		<p class="text-center">Alguns dos meus projetos já feitos, tanto freelancers quanto estudos</p>
 
-		<div class="my-4 px-1 ">
+		<div class="my-4 sm:px-1 px-5 ">
 
 			<div class="mt-6">
-				<div class="flex flex-col gap-4 justify-center w-full">
-					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-wide">Freelancers</h3>
+				<div class="flex flex-col  justify-center w-full">
+					<h3 class="text-2xl  mb-2 font-bold uppercase tracking-wide">Freelancers</h3>
 
-						<div class="flex  gap-2 sm:gap-0">
-						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
+						<div class="flex items-center gap-2 sm:gap-0">
+						
 					<div class="flex h-fit sm:overflow-x-scroll sm:gap-1 scroll-smooth gap-4 overflow-x-hidden">
 						<CardProjetos 
 						v-for="projeto in projetos" 
@@ -22,19 +22,28 @@
 						:id="projeto.id"
 						/>
 					</div>
-						<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
+					
 					</div>
 				</div>
 			</div>
 
 			<div class="mt-6">
-				<div class="flex flex-col gap-4 justify-center w-full ">
-					<h3 class="text-2xl px-[2.5%] font-bold uppercase tracking-wide">Estudos</h3>
+				<div class="flex flex-col justify-center w-full ">
+					
+					<div class="flex items-baseline mb-2 justify-between">
+						<h3 class="text-2xl  font-bold uppercase tracking-wide">Estudos</h3>
+						<div class="mr-10 ">
+							<button id="prevButton"   @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:hidden w-[35px]"></button>
+							<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:hidden w-[35px]"></button>
+						</div>
+					
+					</div>
 
-					<div class="flex justify-center gap-2 sm:gap-0">
-						<button id="prevButton" class="h-[260px]"  @click="sliderPrev" ><img src="../assets/left-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
+					
 
-						<div class="flex h-fit sm:overflow-x-scroll sm:gap-1 scroll-smooth gap-4 overflow-x-hidden">
+					<div class="flex justify-center items-start sm:h-auto gap-2 sm:gap-0">
+
+						<div class="flex slider-estudo sm:overflow-x-scroll sm:gap-1 scroll-smooth gap-4 overflow-x-hidden">
 							
 								<CardProjetos 
 									v-for="estudo in estudos" 
@@ -48,7 +57,6 @@
 						
 						</div>
 
-						<button id="nextButton " @click="sliderNext"><img src="../assets/right-arrow-svgrepo-com.svg" class="sm:hidden w-[50px]"></button>
 					</div>
 			
 				</div>
@@ -130,14 +138,14 @@ export default {
 
 	methods: {
 		sliderNext(){
-			const slider = document.querySelector('.slider')	
+			const slider = document.querySelector('.slider-estudo')	
 			let containerDimensions = slider.getBoundingClientRect()
 			let containerWidth = containerDimensions.width 
 						slider.scrollLeft += containerWidth
 					},
 
 		sliderPrev(){
-			const slider = document.querySelector('.slider') 
+			const slider = document.querySelector('.slider-estudo') 
 			let containerDimensions = slider.getBoundingClientRect()
 			let containerWidth = containerDimensions.width
 						slider.scrollLeft -= containerWidth
