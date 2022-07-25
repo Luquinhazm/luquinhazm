@@ -61,21 +61,6 @@
 			
 				</div>
 			</div>
-			<!-- <div class="mt-6 mx-auto flex flex-col justify-center items-center w-full">
-				<div class="flex flex-col gap-4 justify-center max-w-[850px] ">
-					<h3 class="text-2xl px-[1.75%] font-bold uppercase tracking-widest">Estudos</h3>
-					<div class="flex flex-wrap justify-center w-full gap-8">
-						<CardProjetos 
-						v-for="estudo in estudos" 
-						:key="estudo.id" 
-						:website="estudo.site" 
-						:img="estudo.img" 
-						:title="estudo.title" 
-						:id="estudo.id"
-						/>
-					</div>
-				</div>
-			</div> -->
 
 		</div>
 	</section>
