@@ -7,8 +7,8 @@ import CMain from "@/components/CMain";
 
 export default function SobrePage(){
     return (
-        <main className="flex justify-between w-[90%] min-h-[80%] mx-auto">
-            <div className="flex flex-col items-center justify-center p-6 gap-3 min-h-[80vh] mt-3">
+        <main className=" flex flex-wrap justify-between w-11/12 min-h-[80%] mx-auto">
+            <div className="flex flex-col items-center justify-center  gap-3 w-7/12 min-h-[80vh] mt-3 max-[745px]:w-full ">
                 <p className="max-w-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a reprehenderit nostrum obcaecati atque inventore unde odit sint ipsum. Aspernatur pariatur fugit rem, possimus veniam eligendi asperiores iure nesciunt reiciendis?</p>
                 <p className="max-w-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a reprehenderit nostrum obcaecati atque inventore unde odit sint ipsum. Aspernatur pariatur fugit rem, possimus veniam eligendi asperiores iure nesciunt reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolores?</p>
                 <p className="max-w-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a reprehenderit nostrum obcaecati atque inventore unde odit sint ipsum. Aspernatur pariatur fugit rem, possimus veniam eligendi asperiores iure nesciunt reiciendis?</p>
@@ -28,11 +28,13 @@ export default function SobrePage(){
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col gap-3 w-[40%] p-6">
-                <ProfileImage/>
-                <h2>Oi, Eu sou o Goku</h2>
+            <div className="flex flex-col max-[745px]:w-full  max-[745px]:mt-5 max-[745px]:items-center gap-3 w-[40%] ">
+                <div className="flex justify-center max-[745px]:w-[80%]">
+                    <ProfileImage size="w-[90%]"/>
+                </div>
+
                 <div>
-                    <ul className="flex flex-col gap-3">
+                    <ul className="flex justify-center  flex-col gap-3">
                         <li>
                             <a className="flex items-center gap-3" href="/"><TbMail size="32"></TbMail><span>luquinhazm@gmail.com</span></a>
                         </li>

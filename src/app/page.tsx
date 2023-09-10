@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <CMain>
         <div className="flex justify-between flex-wrap items-center w-[90%] min-h-[80vh] max-[680px]:justify-center ">
-        <ProfileImage />
+        <ProfileImage size="w-[30%]"/>
           <div className="w-[55%] max-w-[580px] max-[680px]:w-11/12">
             <h1 className="text-2xl py-3 font-bold">Olá, sejam bem-vindos &#x1F44B;</h1>
             <p>Eu me chamo Lucas, estudante de <strong>Analise e Desenvolvimento de Sistema</strong> e entusiasta do <strong>Desenvolvimento de Software</strong>. Aqui você poderá encontrar meus textos e projetos</p>

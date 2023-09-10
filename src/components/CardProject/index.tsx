@@ -16,10 +16,10 @@ export default function CardProject(props: ProjectCardProps) {
                 <div className='relative h-1/2'>
                     <img src={props.imagemProjeto} alt={''} className='absolute top-0 left-0 w-full h-full object-cover'></img>
                 </div>
-                <div className='flex flex-col  h-1/2'>
-                    <h2 className='text-lg px-2 my-1 h-1/4 font-semibold'>{props.title}</h2>
-                    <p className='px-2 my-2 h-1/2 text-ellipsis line-clamp-6'>{props.descricao}</p>
-                    <a href={`/projetos/${props.slug}`} className='px-2 font-bold text-green-600'>Veja mais</a>
+                <div className='flex flex-col justify-around px-4 py-1 h-1/2'>
+                    <h2 className='text-lg  mt-2  font-semibold'>{props.title}</h2>
+                    <p className=' mt-2 h-1/2 text-ellipsis line-clamp-6'>{props.descricao}</p>
+                    <a href={`/projetos/${props.slug}`} className='mb-2 font-bold text-green-600'>Veja mais</a>
                 </div>
             </div>
         </>
