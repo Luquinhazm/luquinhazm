@@ -6,7 +6,7 @@ type CMainProps = {
 
 export default function CMain({children}: CMainProps){
     return (
-        <main className="flex flex-wrap flex-col justify-center items-center min-h-[80vh]">
+        <main className="flex flex-wrap flex-col justify-around items-center min-h-[80vh]">
             {children}
         </main>
     )
