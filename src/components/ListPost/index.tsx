@@ -24,7 +24,7 @@ export interface PostRes{
   export default async function ListPost() {
     const  {data: res} = await performRequest({ query: PostsQuery});
     return(
-       <div>
+       <div className='mx-auto'>
         {res.allContentPosts.map((post: PostRes)=>(
           <CardPost 
           key={post.title}

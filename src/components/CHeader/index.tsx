@@ -4,7 +4,7 @@ import ThemeSwitcher from "../ThemeSwitcher";
 export default function CHeader() {
     return (
         <header
-            className="flex items-center justify-between min-h-[10%] w-11/12 my-0 mx-auto py-5 px-0"
+            className="flex items-center justify-between min-h-[10%] w-11/12 my-0 mx-auto py-5 px-0 flex-wrap"
         >
             <h1 className="text-3xl uppercase font-semibold"><Link href="/">Luquinhazm</Link></h1>
             <nav className="flex items-center gap-6">
