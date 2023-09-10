@@ -15,7 +15,7 @@ export default function CardPost(props: PostCardProps){
     const dataPublicacao = format(dataISO, 'dd/MM/yyyy')
     
     return(
-        <div className="max-w-[780px] w-full my-3 p-4 rounded shadow bg-gray-900">
+        <div className="max-w-[780px] w-full my-3 p-4 rounded shadow dark:bg-zinc-800">
             <div>
                 <h2 className="text-xl font-semibold">{props.title}</h2>
                 <span className="text-xs">{dataPublicacao}</span>

@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import CFooter from '@/components/CFooter'
 import CMain from '@/components/CMain'
+import Providers from './provider'
+import ThemeSwitcher from '@/components/ThemeSwitcher'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,10 +23,12 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
 
-      <body className={inter.className}>
+      <body className={`${inter.className} dark:bg-zinc-900`}>
+        <Providers>
         <CHeader />
         {children}
-        <CFooter></CFooter>
+        <CFooter/>
+        </Providers>
       </body>
     </html>
   )

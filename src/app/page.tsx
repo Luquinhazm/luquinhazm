@@ -1,6 +1,4 @@
-
 import CMain from "@/components/CMain";
-import CardProject from "@/components/CardProject";
 import IconSocial from "@/components/IconSocial";
 import ListPost from '@/components/ListPost';
 import ListProject from "@/components/ListProject";

@@ -12,7 +12,7 @@ interface ProjectCardProps{
 export default function CardProject(props: ProjectCardProps) {
     return (
         <>
-            <div className='my-3 h-[420px] max-w-[400px] w-[49%] text-sm bg-gray-900 rounded shadow max-[900px]:max-w-full max-[900px]:w-full'>
+            <div className='my-3 h-[420px] max-w-[400px] w-[49%] text-sm dark:bg-zinc-800 rounded shadow max-[900px]:max-w-full max-[900px]:w-full'>
                 <div className='relative h-1/2'>
                     <img src={props.imagemProjeto} alt={''} className='absolute top-0 left-0 w-full h-full object-cover'></img>
                 </div>
