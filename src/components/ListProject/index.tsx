@@ -1,7 +1,7 @@
 import {performRequest} from '@/lib/cms'
 import CardProject  from "@/components/CardProject"
 
-const QUERY_ALL_PROJECT = `
+export const QUERY_ALL_PROJECT = `
 query {
     allContentProjects {
       id
