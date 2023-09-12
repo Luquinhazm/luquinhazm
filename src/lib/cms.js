@@ -5,7 +5,7 @@ export const performRequest = async ({ query, variables = {},}) => {
       },
       method: "POST",
       body: JSON.stringify({ query, variables }),
-      // next: {revalidate: 6000}
+      next: {revalidate: 60}
     });
     
     const responseBody = await response.json();
